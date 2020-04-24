@@ -371,7 +371,7 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
+	background: #444 url(../img/bg/bg-6.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -479,6 +479,16 @@ section.spacer {
 	background:#1bac91;
 }
 
+.spacer.strceleste,.section.srtceleste {
+	background:#00ACEB;
+}
+
+.spacer.sofceleste,.section.sofceleste {
+	background:#75C5F8;
+}
+
+
+
 .spacer.green,.section.green h4 {
 	color:#fff;
 }
@@ -487,7 +497,7 @@ section.spacer {
 	background:#ffe873;
 }
 .spacer.orange,.section.orange {
-	background:#f36f36;
+	background:#00ACEB;
 }
 
 section.spacer.bg2 {
@@ -498,7 +508,7 @@ section.spacer.bg2 {
 }
 
 section.spacer.bg3 {
-	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/bg/bg-7.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
 	margin:0;	
@@ -755,7 +765,7 @@ section#services .service-box h2 {
 }
 
 section#services.section.orange .service-box:hover {
-	background:#f36518;
+	background:#00ACEB;
 }
 
 
