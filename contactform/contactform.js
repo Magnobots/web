@@ -110,6 +110,9 @@ jQuery(document).ready(function($) {
           $('#errormessage').html(msg);
         }
 
+      },
+      error: function (msg) {
+        alert( JSON.stringify(msg));
       }
     });
     return false;

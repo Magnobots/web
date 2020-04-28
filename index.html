@@ -558,7 +558,7 @@
 					<div class="cform" id="contact-form">
 						<div id="sendmessage">Your message has been sent. Thank you!</div>
 						<div id="errormessage"></div>
-						<form action="https://formspree.io/mbjzrokp" method="post"  role="form" class="contactForm">
+						<form action="https://formspree.io/mbjzrokp" method="post" enctype="multipart/form-data"  role="form" class="contactForm">
 							<div class="row">
 								<div class="span6">
 									<div class="field your-name form-group">
@@ -583,14 +583,6 @@
 								</div>
 							</div>
 						</form>
-						<script>
-							$('#form').submit(function(e) {
-								$('#sendmessage').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
-								//$('#messages_content').html('<h4>MESSAGE HERE</h4>');
-								//$('#modal').modal('show');
-								e.preventDefault();
-							});
-						</script>
 					</div>
 				</div>
 				<!-- ./span12 -->
