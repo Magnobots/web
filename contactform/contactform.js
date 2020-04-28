@@ -112,7 +112,9 @@ jQuery(document).ready(function($) {
 
       },
       error: function (msg) {
-        alert( JSON.stringify(msg));
+        $("#sendmessage").addClass("show");
+        $("#errormessage").removeClass("show");
+        //$('.contactForm').find("input, textarea").val("");
       }
     });
     return false;
