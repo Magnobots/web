@@ -110,7 +110,7 @@ a.scrollup i:hover {
 	display: block;
 }
 .blankdivider30 {
-	height: 30px;
+	height: 15px;
 	display: block;
 }
 
@@ -1715,4 +1715,23 @@ i.icon-white {
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
+}
+
+div.ui-menu li {
+	list-style:none;
+	background-image:none;
+	background-repeat:none;
+	background-position:0; 
+}
+ul
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+li
+{
+	background-image:url(sqpurple.gif);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
 }
